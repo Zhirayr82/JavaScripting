@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+
+</head>
+<body>
+	<script>
+		var x = '#', i, y; 
+		var reponse=prompt("Hey mon ami ! Tu aimes ça les patates ? (Oui/Non)");
+			
+			if(reponse === "oui" || reponse ==="Oui"){
+				
+				for(var i=0; i<7; i++){
+					
+					for(y=0; y<=i; y++){
+					document.write(x);
+					}
+
+					document.write('<br />');	
+				}
+			}
+			else if(reponse ==="non" || reponse ==="Non"){
+		     		alert("Je pense que ce ne pas bien");
+				}
+				else{
+					alert("Je vous sens comme tiraillé");
+					}
+	</script>
+</body>
+</html>
